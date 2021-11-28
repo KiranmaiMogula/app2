@@ -1,5 +1,5 @@
 function NewMeetupsPage(){
-    return <div className="new"> New Meetups Page </div>;
+    return <div className="new"> Frozen </div>;
 
 }
 

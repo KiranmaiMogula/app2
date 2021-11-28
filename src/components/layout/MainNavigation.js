@@ -6,17 +6,17 @@ function MainNavigation() {
 
 return (
     <header className={classes.header}> 
-        <div className={classes.logo }> React Meetups</div>
+        <div className={classes.logo }> Shopping Store</div>
         <nav>
             <ul>
                 <li> 
-                    <Link to='/'> All Meetups </Link>
+                    <Link to='/'> Groceries </Link>
                 </li>
                 <li> 
-                    <Link to='/newmeetup'> New Meetups </Link>
+                    <Link to='/newmeetup'> Frozen </Link>
                 </li>
                 <li> 
-                    <Link to='/favorite'> Favorites Meetups </Link>
+                    <Link to='/favorite'> Clothing </Link>
                 </li>
             </ul>
         </nav>

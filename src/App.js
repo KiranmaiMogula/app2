@@ -10,8 +10,7 @@ function App() {
       <MainNavigation />
       <Routes>
 
-        <Route path='/' element={<AllMeetupsPage />} /> 
-        
+        <Route path='/' element={<AllMeetupsPage names={names1} />} /> 
         
         <Route path='/newmeetup' element={<NewMeetupsPage /> } /> 
         
@@ -25,3 +24,5 @@ function App() {
 }
 
 export default App;
+
+const names1 = ['Apple','Mango','Kiwi','Pineapple','Banana']

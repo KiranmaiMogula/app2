@@ -1,5 +1,5 @@
 function FavoritesPage(){
-    return <div className="new"> Favorites Page </div>;
+    return <div className="new"> Clothing </div>;
 
 }
 
