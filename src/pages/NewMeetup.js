@@ -5,8 +5,10 @@ function NewMeetupsPage(props){
     const listFrozen = frozen.map((froze) => <li key={froze.toString()}> {froze} </li>)
     return <div className="new"> 
         <img src={img} alt="LOGO" />
+        <div className="move"> 
         <h1> FROZEN ITEMS</h1>
             <ul> {listFrozen} </ul>
+        </div>
      </div>;
 
 }

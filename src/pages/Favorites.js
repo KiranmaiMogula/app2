@@ -25,13 +25,14 @@ function FavoritesPage(props){
                 width="500" height="500"/>  
                 </div>
             </div>
-                    
+        <div className="move">           
         <h1> MEN </h1>
             <ul> {listStyles} </ul>
         <h2> WOMEN </h2>
             <ul> {womenStyles} </ul>
         <h3> KIDS </h3>
         <ul> {kidsStyles} </ul>
+        </div> 
      </div>;
 
 }

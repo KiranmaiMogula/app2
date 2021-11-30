@@ -14,13 +14,13 @@ code {
 
 .new {
   font-size: 4rem;
-  color:maroon;
+  color:blueviolet;
   background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(108, 212, 207));
 
 }
 
 .new h1,h2,h3{
-  color:cornflowerblue;
+  color:rgb(32, 167, 137);
 }
 
 .column {
@@ -37,4 +37,9 @@ code {
 
 .column img{
   width: 90%;
+}
+
+.move {
+  margin-left: 30px;
+  font-style: italic;
 }

@@ -16,7 +16,8 @@ function AllMeetupsPage(props){
                 <img src = 'https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-2foodgroups_vegetables_detailfeature.jpg?sfvrsn=226f1bc7_6' alt="Logo" 
                 width="600" height="600"/> 
         </div>
-    </div>    
+    </div>  
+        <div className="move"> 
         <h1> FRUITS </h1>
              
             <ul> 
@@ -26,6 +27,7 @@ function AllMeetupsPage(props){
             <ul>
             {listItems1}
             </ul>
+        </div>   
      </div>
     );
 
