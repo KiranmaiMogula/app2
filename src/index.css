@@ -14,4 +14,27 @@ code {
 
 .new {
   font-size: 4rem;
+  color:maroon;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(108, 212, 207));
+
+}
+
+.new h1,h2,h3{
+  color:cornflowerblue;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column img{
+  width: 90%;
 }

@@ -10,12 +10,12 @@ function App() {
       <MainNavigation />
       <Routes>
 
-        <Route path='/' element={<AllMeetupsPage names={names1} />} /> 
+        <Route path='/' element={<AllMeetupsPage fruits={names1} veggies={names2}/>} /> 
         
-        <Route path='/newmeetup' element={<NewMeetupsPage /> } /> 
+        <Route path='/newmeetup' element={<NewMeetupsPage frozen={items} /> } /> 
         
         
-        <Route path='/favorite' element={<FavoritesPage /> } /> 
+        <Route path='/favorite' element={<FavoritesPage styles={men} womenstyles={women} kidsstyles={kid}/> } /> 
         
         
       </Routes>
@@ -26,3 +26,8 @@ function App() {
 export default App;
 
 const names1 = ['Apple','Mango','Kiwi','Pineapple','Banana']
+const names2 = ['Potatoes','Spinach','Cabbage','Cauliflower']
+const men = ['Jeans','Shirts','Formals']
+const women = ['Sarees','Kurthi','Jeans','Shirts','Lehenga']
+const kid = ['Frocks','Skirts','Pants','Tops','Jumpsuits']
+const items=['Chicken','Mutton','Fish','Pizza','Veggies']
